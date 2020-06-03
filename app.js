@@ -23,6 +23,6 @@ server.post("/validate",function(req,res){
 server.post("/check",function(req,res){
     
 })
-server.listen(3000||process.env.PORT,function(){
+server.listen(process.env.PORT||3000,function(){
 console.log("server started")
 })
